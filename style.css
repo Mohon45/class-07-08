@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  /* font-family: "Poppins", sans-serif; */
+}
+body {
+  background-color: #e5e5e5;
+}
+
+/* .box-1 {
+  background-color: aqua;
+} */
+
+/* header design start */
+
+.header {
+  background-color: #562eff;
+  color: white;
+}
+.header-component {
+  width: 600px;
+  margin: auto;
+  padding: 10px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item ul {
+  list-style: none;
+  display: flex;
+  /* justify-content: space-around; */
+}
+.nav-item ul li {
+  margin-left: 10px;
+}
+.nav-item ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* header design end */
+
+/* main section start */
+
+.section-body {
+  background-color: #e5e5e5;
+}
+.top-player-and-top-blog {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.top-player-and-top-blog h2 {
+  color: #5b34ff;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  grid-gap: 30px;
+  margin-top: 50px;
+}
+.player {
+  display: flex;
+  align-items: center;
+}
+
+.player img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.player p {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+/* main section end */
